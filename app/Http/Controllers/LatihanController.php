@@ -14,9 +14,11 @@ class LatihanController extends Controller
         $response =  $client->get('https://datasekolahapi.herokuapp.com/api/data/sd/jakarta/pasar_minggu');
         $body = $response->getBody()->getContents();
         $project = json_decode($body);
+
         //$project = json_decode($response);
         //
         ////return view('response', compact($project));
+
         return view('pages.latihan', compact('project'));
     }
 }
