@@ -29,7 +29,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Info Pupuk</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -55,21 +54,21 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/slider-01.jpg')">
+                <div class="carousel-item active" style="background-image: url('{{asset('asset/images/slider-01.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Sistem Informasi</h3>
                         <p>Pengelolaan Jambu Kristal</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/slider-02.jpg')">
+                <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-02.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Sistem Informasi</h3>
                         <p>Pengelolaan Jambu Kristal</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/slider-03.jpg')">
+                <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-03.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
                         <h3>Sistem Informasi</h3>
                         <p>Pengelolaan Jambu Kristal</p>
@@ -96,7 +95,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Fence</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-01.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-01.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -110,7 +109,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Watering</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-02.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-02.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -124,7 +123,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Supplies</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-03.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-03.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -154,7 +153,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid rounded" src="images/about-img.jpg" alt="" />
+                    <img class="img-fluid rounded" src="{{asset('asset/images/about-img.jpg')}}" alt="" />
                 </div>
             </div>
             <!-- /.row -->
@@ -167,7 +166,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-01.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -182,7 +181,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-02.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-02.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -197,7 +196,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-03.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-03.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -212,7 +211,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-04.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-04.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -227,7 +226,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-05.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-05.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -242,7 +241,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-01.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
