@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LatihanController;
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\PetaniController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +21,6 @@ Route::get('/', function () {
 Route::get('auth/google', [App\Http\Controllers\GoogleController::class, 'redirectToGoogle'])->name('google.login');
 Route::get('/latihan', [LatihanController::class, 'index']);
 Route::get('/login', [GoogleController::class, 'loginPage']);
+
+// Petani Action
+Route::get('/petani', [PetaniController::class, 'index']);

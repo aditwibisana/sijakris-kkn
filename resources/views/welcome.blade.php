@@ -21,7 +21,7 @@
                         <a class="nav-link active" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Petani</a>
+                        <a class="nav-link" href="/petani">Petani</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Cocok Tanam</a>
