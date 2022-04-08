@@ -56,22 +56,22 @@
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active" style="background-image: url('{{asset('asset/images/slider-02.JPG')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-01.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-03.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
             </div>
