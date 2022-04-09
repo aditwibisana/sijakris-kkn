@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Farmer;
+
 
 class PetaniController extends Controller
 {
     public function index()
     {
-        return view('pages.petani');
+        $data = Farmer::paginate(2);
+        return view('pages.petani', ['data' => $data], compact('data'));
     }
 }
