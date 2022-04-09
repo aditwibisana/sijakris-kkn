@@ -26,29 +26,18 @@ class GoogleController extends Controller
     {
         try {
             $user = Socialite::driver('google')->user();
-            dd($user);
-            //$find_user = User::where('google_id', $user->getId())->first();
-            //if ($find_user) {
-            //
-            //    Auth::login($find_user);
-            //    DB::table('users')->where('google_id', $user->getId())->update([
-            //        'last_login_at' => Carbon::now()->toDateTimeString(),
-            //        'last_login_ip' => $request->getClientIp(),
-            //    ]);
-            //    return redirect()->intended('dashboard');
-            //} else {
-            //    $newUser = User::create([
-            //        'name' => $user->getName(),
-            //        'email' => $user->getEmail(),
-            //        'avatar' => $user->getAvatar(), 'path',
-            //        'google_id' => $user->getId(),
-            //        'password' => bcrypt('12345678'),
-            //        'last_login_at' => Carbon::now()->toDateTimeString(),
-            //        'last_login_ip' => $request->getClientIp(),
-            //    ]);
-            //    Auth::login($newUser);
-            //    return redirect()->intended('dashboard');
-            //}
+            //dd($user);
+            $newUser = User::create([
+                'name' => $user->getName(),
+                'username' => $user->getNickname(),
+                'email' => $user->getEmail(),
+                'avatar' => $user->getAvatar(), 'path',
+                'google_id' => $user->getId(),
+                'password' => bcrypt('12345678'),
+                'last_login_ip' => $request->getClientIp(),
+            ]);
+            Auth::login($newUser);
+            return redirect()->intended('dashboard/admin');
         } catch (\Throwable $th) {
             //throw $th;
         }

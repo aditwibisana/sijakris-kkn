@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LatihanController;
 use App\Http\Controllers\GoogleController;
 use App\Http\Controllers\PetaniController;
+use App\Http\Controllers\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +26,6 @@ Route::get('/login', [GoogleController::class, 'loginPage']);
 
 // Petani Action
 Route::get('/petani', [PetaniController::class, 'index']);
+
+// Dashboard
+Route::get('/dashboard/admin', [DashboardController::class, 'index']);
