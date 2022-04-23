@@ -10,7 +10,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="{{asset('asset/images/logo.png')}}" alt="logo" />
+                <img src="{{asset('asset/images/logosijakris.png')}}" alt="logo" />
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fas fa-bars"></span>
@@ -18,37 +18,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link" href="/petani">Petani</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                            <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
-                            <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                            <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pages
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                            <a class="dropdown-item" href="faq.html">FAQ</a>
-                            <a class="dropdown-item" href="404.html">404</a>
-                            <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-                        </div>
+                        <a class="nav-link" href="/cocok-tanam">Cocok Tanam</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="services.html">Info Pupuk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontak</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,24 +54,24 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/slider-01.jpg')">
+                <div class="carousel-item active" style="background-image: url('{{asset('asset/images/slider-02.JPG')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/slider-02.jpg')">
+                <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-01.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/slider-03.jpg')">
+                <div class="carousel-item" style="background-image: url('{{asset('asset/images/slider-01.jpg')}}')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Sistem Informasi</h3>
-                        <p>Pengelolaan Jambu Kristal</p>
+                        <h3>Sistem Informasi Jambu Kristal</h3>
+                        <p>Jl. Soekarno Hatta KM.24 Balikpapan Utara</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +95,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Fence</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-01.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-01.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -127,7 +109,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Watering</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-02.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-02.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -141,7 +123,7 @@
                     <div class="card h-100">
                         <h4 class="card-header">Garden Supplies</h4>
                         <div class="card-img">
-                            <img class="img-fluid" src="images/services-img-03.jpg" alt="" />
+                            <img class="img-fluid" src="{{asset('asset/images/services-img-03.jpg')}}" alt="" />
                         </div>
                         <div class="card-body">
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -171,7 +153,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid rounded" src="images/about-img.jpg" alt="" />
+                    <img class="img-fluid rounded" src="{{asset('asset/images/about-img.jpg')}}" alt="" />
                 </div>
             </div>
             <!-- /.row -->
@@ -184,7 +166,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-01.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -199,7 +181,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-02.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-02.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -214,7 +196,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-03.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-03.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -229,7 +211,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-04.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-04.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -244,7 +226,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-05.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-05.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
@@ -259,7 +241,7 @@
                     <div class="card h-100">
                         <div class="card-img">
                             <a href="#">
-                                <img class="card-img-top" src="images/portfolio-img-01.jpg" alt="" />
+                                <img class="card-img-top" src="{{asset('asset/images/portfolio-img-01.jpg')}}" alt="" />
                                 <div class="overlay"><i class="fas fa-arrows-alt"></i></div>
                             </a>
                         </div>
