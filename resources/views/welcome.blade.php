@@ -27,17 +27,17 @@
                         <a class="nav-link" href="/cocok-tanam">Cocok Tanam</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Info Pupuk</a>
+                        <a class="nav-link" href="/info-pupuk">Info Pupuk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Kontak</a>
+                        <a class="nav-link" href="/contact">Kontak</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Aksi
                         </a>
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                            <a class="dropdown-item" href="/login">Login</a>
+                            <a class="dropdown-item" href="/login-page">Login</a>
                             <a class="dropdown-item" href="portfolio-2-col.html">Signup</a>
                         </div>
                     </li>
