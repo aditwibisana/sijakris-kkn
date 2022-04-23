@@ -24,7 +24,7 @@
                         <a class="nav-link" href="/petani">Petani</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Cocok Tanam</a>
+                        <a class="nav-link" href="/cocok-tanam">Cocok Tanam</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Info Pupuk</a>

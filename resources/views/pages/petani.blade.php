@@ -10,7 +10,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light top-nav fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
-                <img src="{{asset('asset/images/logo.png')}}" alt="logo" />
+                <img src="{{asset('asset/images/logosijakris.png')}}" alt="logo" />
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fas fa-bars"></span>
@@ -24,7 +24,7 @@
                         <a class="nav-link active" href="/petani">Petani</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Cocok Tanam</a>
+                        <a class="nav-link" href="/cocok-tanam">Cocok Tanam</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Info Pupuk</a>
